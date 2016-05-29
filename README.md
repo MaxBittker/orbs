@@ -1,4 +1,4 @@
-check it out at [maxbittker.github.io/toyShader](http://maxbittker.github.io/toyShader)
+check it out at [maxbittker.github.io/orbs](http://maxbittker.github.io/orbs)
 #to develop:
 ```
 webpack-dev-server --content-base build/ --hot
