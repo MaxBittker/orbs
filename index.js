@@ -54,7 +54,7 @@ const animate = () => {
     if(me.type!=="Mesh") return
 
     me.geometry.normalize()
-    let scale =  1 + (1 * Math.cos(Date.now()/10000))
+    let scale =  .8 + (.1 * Math.cos(Date.now()/10000))
     me.geometry.scale(scale,scale,scale);
 
     let move = origin.clone()
